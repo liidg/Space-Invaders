@@ -2,5 +2,9 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+<<<<<<< HEAD
+=======
+    <mapping directory="$PROJECT_DIR$/Space-Invaders" vcs="Git" />
+>>>>>>> 32f4535d98f4e5022a1b3452d8cf79ef2aae3039
   </component>
 </project>
