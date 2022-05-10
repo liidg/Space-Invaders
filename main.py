@@ -14,7 +14,7 @@ screen = pygame.display.set_mode((800, 600))
 background = pygame.image.load('media/background.png')
 mixer.music.load('media/Moon-Crystals.mp3')
 mixer.music.play(-1)
-# Titulo y icono
+# Title and icon
 pygame.display.set_caption("Space Invaders")
 icon = pygame.image.load("media/ovni.png")
 pygame.display.set_icon(icon)
@@ -93,7 +93,7 @@ def isCollision(enemyX, enemyY, bulletX, bulletY):
 # Game Loop
 running = True
 while running:
-    # RGB pantalla negra
+    # RGB Black Screen
 
     screen.fill((0, 0, 0))
 
@@ -103,7 +103,7 @@ while running:
         if event.type == pygame.QUIT:
             running = False
 
-        # checkear tecla
+        # Checking key
         if event.type == pygame.KEYDOWN:
             if event.key == pygame.K_LEFT:
                 playerX_change = -1.5
